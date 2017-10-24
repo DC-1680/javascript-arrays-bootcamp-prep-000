@@ -38,7 +38,7 @@ function destructivelyRemoveElementFromBeginningOfArray(myArray){
  }
 
 function removeElementFromBeginningOfArray(myArray){
-  myArray.slice(-3);
+  myArray.slice(-2);
   return myArray;
 }
 
