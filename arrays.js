@@ -2,6 +2,7 @@
 var chocolateBars = [`snickers`, `hundred grand`, `kitkat`, `skittles`];
 var array = [1];
 var myArray = [1, 2, 3];
+var myArray1 = [1, 2, 3];
 var element = 'foo';
 
 function addElementToBeginningOfArray(array, element) {
@@ -37,9 +38,9 @@ function destructivelyRemoveElementFromBeginningOfArray(myArray){
    return myArray;
  }
 
-function removeElementFromBeginningOfArray(myArray){
-  myArray.slice(1, 2);
-  return myArray;
+function removeElementFromBeginningOfArray(myArray1){
+  myArray1.slice(1, 2);
+  return myArray1;
 }
 
 function destructivelyRemoveElementFromEndOfArray(myArray){
