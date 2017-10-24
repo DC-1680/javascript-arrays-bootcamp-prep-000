@@ -1,6 +1,7 @@
 
 var chocolateBars = [`snickers`, `hundred grand`, `kitkat`, `skittles`];
-var array = [1, 2, 3];
+var array = [1];
+var myArray = [1, 2, 3];
 var element = 'foo';
 
 function addElementToBeginningOfArray(array, element) {
@@ -27,6 +28,6 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array;
 }
 
-function accessElementInArray(array, index){
+function accessElementInArray(){
   console.log(array[2]);
 }
